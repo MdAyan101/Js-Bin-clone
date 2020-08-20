@@ -1,0 +1,64 @@
+<html>
+
+    <head>
+         
+        <link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap" rel="stylesheet">
+    
+        <title>JS bin Clone</title>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+        <script src="jquery-ui/jquery-ui.js"></script>
+        
+        <link href="jquery-ui/jquery-ui.css" rel="stylesheet">
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+      
+    
+    </head>
+    
+    <body>
+        
+        <div id="topbar">
+        
+            <div id="logo">Code Player</div>
+            
+            <div id="button-container">
+            
+                <div class="togglebutton active" id="html">HTML</div>
+                <div class="togglebutton" id="css">CSS</div>
+                <div class="togglebutton" id="javascript">Javascript</div>
+                <div class="togglebutton active" id="output">Output</div>
+       
+            
+            </div>
+  
+        </div>
+        
+        <div id="body-container">
+        
+            <textarea id="htmlpanel" class="panel"><p id="para">Hello World!</p></textarea>
+            
+            <textarea id="csspanel" class="panel hidden">p{color:green;}</textarea>
+            
+            <textarea id="javascriptpanel" class="panel hidden">document.getElementById("para").innerHTML=" Hi Ayan!";</textarea>
+            
+            <iframe id="outputpanel" class="panel"></iframe>
+        
+        </div>
+        
+        <script type="text/javascript" src="script.js"></script>
+       
+        
+       
+       
+    
+    
+    </body>
+
+
+
+
+
+
+</html>
